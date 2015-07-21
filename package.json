@@ -1,0 +1,25 @@
+{
+  "name": "steam-cloud",
+  "version": "0.1.0",
+  "description": "Play your steam games on any computer",
+  "main": "server.js",
+  "dependencies": {
+    "aws-sdk": "^2.1.39",
+    "good": "^6.3.0",
+    "good-console": "^5.0.2",
+    "hapi": "^8.8.0",
+    "jade": "^1.11.0",
+    "path": "^0.11.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "steam",
+    "cloud",
+    "gaming"
+  ],
+  "author": "Ryan Walters",
+  "private": true
+}
