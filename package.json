@@ -1,12 +1,9 @@
 {
-  "name": "steam-cloud",
+  "name": "hapi-boilerplate",
   "version": "0.1.0",
-  "description": "Play your steam games on any computer",
+  "description": "Basic hapi.js setup w/ Jade",
   "main": "server.js",
   "dependencies": {
-    "aws-sdk": "^2.1.39",
-    "good": "^6.3.0",
-    "good-console": "^5.0.2",
     "hapi": "^8.8.0",
     "jade": "^1.11.0",
     "path": "^0.11.14"
@@ -15,11 +12,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "steam",
-    "cloud",
-    "gaming"
-  ],
+  "keywords": [],
   "author": "Ryan Walters",
   "private": true
 }
