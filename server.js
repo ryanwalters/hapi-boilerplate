@@ -23,16 +23,6 @@ server.views({
 
 server.route(Routes);
 
-/*plugins.push({
-    register: require('good'),
-    options: {
-        reporters: [{
-            reporter: require('good-console'),
-            args: [{ log: '*', response: '*', ops: '*' }]
-        }]
-    }
-});*/
-
 server.register(plugins, function (err) {
     if (err) {
         throw err;
